@@ -2,9 +2,9 @@
 // http://github.com/biomassives/meteor-mailchimp-custom
 
 Package.describe({
-        name    : 'biomassives:meteor-mailchimp-custom',
+        name    : 'biomassives:mailchimp-custom',
         version : '1.0.4',
-        summary : 'A Meteor wrapper for MilChimp API with form customization',
+        summary : 'A Meteor wrapper for MailChimp API with form customization',
         author  : " (http://biomassiv.es)",
         git     : 'https://github.com/biomassives/meteor-mailchimp-custom.git'
 });
