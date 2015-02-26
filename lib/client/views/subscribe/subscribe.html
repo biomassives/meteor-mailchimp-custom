@@ -1,0 +1,30 @@
+<template name="MailChimpListSubscribe">
+	<div>
+	{{#if message}}
+		<p class="message">{{{message}}}</p>
+	{{/if}}
+		<input class="email" type="email" placeholder="youremail@gmail.com"/><br>
+                <input class="text" type="text" placeholder="Your Name" /><BR>
+                <input class="text" type="text" placeholder="Your Name" /><BR>
+    
+        
+                <label>Interest<span class="required"></span></label>
+<select id="interest">
+<option selected="">Area of Interest</option>
+<option>Fine Art</option>
+<option>Illustration</option>
+<option>Instruction</option>
+<option>Design Consulting</option>
+<option>Feng Shui/ Ikibana</option>
+<option>Existing Project</option>
+<option>Branding</option>
+<option>Question</option>
+</select>
+<BR>
+
+
+<textarea placeholder="Tell us everything" id="message" name="message" ></textarea>
+<BR>
+		<button class="subscribe" type="button">Subscribe</button>
+	</div>
+</template>
