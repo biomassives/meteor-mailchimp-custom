@@ -2,12 +2,11 @@
 // http://github.com/biomassives/meteor-mailchimp-custom
 
 Package.describe({
-        name    : 'miro:mailchimp',
+        name    : 'biomassives:meteor-mailchimp-custom',
         version : '1.0.4',
-        summary : 'A Meteor wrapper for MailChimp API',
-        homepage: "http://mailchimp.meteor.com",
-        author  : "Miroslav Hibler (http://miro.hibler.me)",
-        git     : 'https://github.com/MiroHibler/meteor-mailchimp.git'
+        summary : 'A Meteor wrapper for MilChimp API with form customization',
+        author  : " (http://biomassiv.es)",
+        git     : 'https://github.com/biomassives/meteor-mailchimp-custom.git'
 });
 
 Package.onUse( function ( api, where ) {
