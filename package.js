@@ -13,9 +13,7 @@ Package.describe({
 Package.onUse( function ( api, where ) {
 
 	api.versionsFrom('METEOR@0.9.2');
-
 	api.use( ['templating'], 'client' );
-
 	api.addFiles( 'lib/server/mailchimp.js', 'server' );
 
 	api.addFiles([
@@ -31,11 +29,6 @@ Package.onUse( function ( api, where ) {
 
 Npm.depends({ 'mailchimp': '1.1.0' });
 
-
-Package.onUse(function(api) {
-  api.versionsFrom('1.0.3.2');
-  api.addFiles('biomassives:mailchimp-custom.js');
-});
 
 Package.onTest(function(api) {
   api.use('tinytest');
