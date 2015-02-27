@@ -183,6 +183,8 @@ of `Meteor.wrapAsync` method (#19)
 
 ## Copyright and license
 
+Copyright © 1015 [Rosebud and Moon](http://rosebudandmoon.hibler.me)
+
 Copyright © 2014-1015 [Miroslav Hibler](http://miro.hibler.me)
 
-_miro:mailchimp_ is licensed under the [**MIT**](http://miro.mit-license.org) license.
+
