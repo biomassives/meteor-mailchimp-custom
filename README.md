@@ -43,7 +43,7 @@ to your mailing list(s).
 Install using Meteor:
 
 ```sh
-meteor add miro:mailchimp
+meteor add biomassives:mailchimp-custom
 ```
 
 ## Quick Start
