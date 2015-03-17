@@ -8,9 +8,6 @@ git repository: http://github.com/biomassives/meteor-mailchimp-custom
 
 via
 
-
-# miro:mailchimp
-
 A Meteor wrapper for the MailChimp API.
 
 See also these wrappers:
