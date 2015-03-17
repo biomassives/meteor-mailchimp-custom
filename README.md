@@ -9,7 +9,6 @@ git repository: http://github.com/biomassives/meteor-mailchimp-custom
 via
 
 
-
 # miro:mailchimp
 
 A Meteor wrapper for the MailChimp API.
@@ -24,16 +23,16 @@ See also these wrappers:
 
  * [node-mailchimp](https://github.com/gomfunkel/node-mailchimp) - A node.js
 wrapper for the MailChimp API
+*  this is pulled in via meteor build process - keeps things simple. - g
 
+## *
 
-## TL;DR;
-
-_miro:mailchimp_ exposes [MailChimp API v2.0](http://apidocs.mailchimp.com/api/2.0) features to your Meteor application.
+biomassives:mailchimp_ exposes [MailChimp API v2.0](http://apidocs.mailchimp.com/api/2.0) features to your Meteor application.
 
 
 ## Templates
 
-_miro:mailchimp_ also provides one template you can use out of the box:
+biomassives:mailchimp_ also provides one template you can use out of the box:
 `{{> MailChimpListSubscribe}}`, which you can use to enable your visitors to subscribe
 to your mailing list(s).
 
@@ -141,6 +140,9 @@ console.info( '[MailChimp][Campaigns][List]: %o', result );
 ```
 
 ## Changelog
+
+### v 0.1.0
+ * established use of multiple fields standard in the mailchimp system 2015 march -g
 
 ### v1.0.4
  * Reinstated server-side callback in case someone still wants to use it instead
