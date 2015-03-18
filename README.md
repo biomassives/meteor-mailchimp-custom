@@ -5,6 +5,15 @@ documentation: Readme.md
 git repository: http://github.com/biomassives/meteor-mailchimp-custom
 
 
+Update for multiple form types.
+
+iron-router is now required to allow apps using this package to
+use url switches when embedding this form.
+
+typical usage in an iframe would look like the following:
+
+
+    <iframe frameborder=0 src="http://rosebudandmoon.meteor.com?mode=emailonly" width=100% height=100%></iframe>
 
 via
 
