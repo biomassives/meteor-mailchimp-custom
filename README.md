@@ -1,5 +1,6 @@
 METEOR Mailchimp API lib with Custom Fields
 
+[![Code Climate](https://codeclimate.com/github/biomassives/meteor-mailchimp-custom/badges/gpa.svg)](https://codeclimate.com/github/biomassives/meteor-mailchimp-custom) [![Test Coverage](https://codeclimate.com/github/biomassives/meteor-mailchimp-custom/badges/coverage.svg)](https://codeclimate.com/github/biomassives/meteor-mailchimp-custom)
 
 documentation: Readme.md
 git repository: http://github.com/biomassives/meteor-mailchimp-custom
